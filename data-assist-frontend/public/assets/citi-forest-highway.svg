@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="1642" y1="37" x2="415" y2="1055" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#304D39"/>
+      <stop offset="1" stop-color="#0C1725"/>
+    </linearGradient>
+    <radialGradient id="mist" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(842 89) rotate(90) scale(539 849)">
+      <stop stop-color="#E9F0D5" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#E9F0D5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="road" x1="1615" y1="83" x2="868" y2="811" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F9FF"/>
+      <stop offset="1" stop-color="#B3C5DC"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#mist)"/>
+  <g opacity="0.25">
+    <circle cx="214" cy="151" r="161" fill="#365D42"/>
+    <circle cx="392" cy="261" r="123" fill="#416D4A"/>
+    <circle cx="579" cy="181" r="184" fill="#2B573E"/>
+    <circle cx="748" cy="347" r="121" fill="#264F39"/>
+    <circle cx="1004" cy="220" r="183" fill="#3F6A4D"/>
+    <circle cx="1138" cy="410" r="138" fill="#345A45"/>
+    <circle cx="1369" cy="312" r="180" fill="#2D563F"/>
+    <circle cx="1640" cy="474" r="170" fill="#325844"/>
+    <circle cx="318" cy="626" r="191" fill="#2A503A"/>
+    <circle cx="601" cy="714" r="201" fill="#355E44"/>
+    <circle cx="938" cy="789" r="177" fill="#2E543F"/>
+    <circle cx="1272" cy="802" r="219" fill="#365D45"/>
+    <circle cx="1598" cy="874" r="211" fill="#2D503D"/>
+  </g>
+  <path d="M1890 47C1736 105 1625 241 1501 385C1388 518 1224 639 988 825" stroke="url(#road)" stroke-width="58" stroke-linecap="round"/>
+  <path d="M1816 123C1669 183 1568 308 1455 438C1356 552 1218 664 1010 841" stroke="#2A3346" stroke-opacity="0.8" stroke-width="8" stroke-dasharray="24 18"/>
+  <g opacity="0.55" stroke="#E6EEF8" stroke-width="2">
+    <line x1="1504" y1="370" x2="1504" y2="469"/>
+    <line x1="1431" y1="455" x2="1431" y2="548"/>
+    <line x1="1355" y1="544" x2="1355" y2="629"/>
+    <line x1="1262" y1="625" x2="1262" y2="704"/>
+    <line x1="1161" y1="712" x2="1161" y2="789"/>
+  </g>
+</svg>
